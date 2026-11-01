@@ -1,0 +1,14 @@
+# Exclude these entirely
+data/
+output/
+ds/
+venv/
+__pycache__/
+*.pyc
+
+# Specific files to exclude
+vision_clip.py
+captioner.py
+clip_worker.py
+build_faiss.py
+build_index.py

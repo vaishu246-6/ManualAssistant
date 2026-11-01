@@ -1,0 +1,18 @@
+# EquipAI — Phase 1 Requirements
+# Install with: pip install -r requirements.txt
+ 
+# PDF extraction
+pymupdf>=1.23.0          # fitz — fast text + image extraction
+pdfplumber>=0.10.0       # table extraction
+ 
+# Embedding & vector search
+sentence-transformers>=2.6.0
+faiss-cpu>=1.7.4         # use faiss-gpu if you have a CUDA GPU
+ 
+# Progress display
+tqdm>=4.66.0
+ 
+# Phase 3+ (install now, used later)
+streamlit>=1.32.0
+ollama>=0.1.0            # for local Mistral via Ollama
+anthropic>=0.23.0        # for Claude API (alternative to Ollama)
